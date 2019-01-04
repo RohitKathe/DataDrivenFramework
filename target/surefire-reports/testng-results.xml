@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[Firefox launched !!]]>
+      <![CDATA[Chrome launched !!]]>
     </line>
     <line>
       <![CDATA[Customer successfully added and alert text validated]]>
@@ -20,20 +20,20 @@
       <![CDATA[Test suite execution completed]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="22622" started-at="2019-01-04T07:32:34Z" finished-at="2019-01-04T07:32:56Z">
+  <suite name="Data Driven Basics" duration-ms="21600" started-at="2019-01-04T13:45:39Z" finished-at="2019-01-04T13:46:00Z">
     <groups>
     </groups>
-    <test name="Bank Manager Login Test" duration-ms="1365" started-at="2019-01-04T07:32:34Z" finished-at="2019-01-04T07:32:35Z">
+    <test name="Bank Manager Login Test" duration-ms="1684" started-at="2019-01-04T13:45:39Z" finished-at="2019-01-04T13:45:41Z">
       <class name="com.rgk.testcases.BankManagerLoginTest">
-        <test-method status="PASS" signature="bankManagerLoginTest()[pri:0, instance:com.rgk.testcases.BankManagerLoginTest@ba2f4ec]" name="bankManagerLoginTest" duration-ms="767" started-at="2019-01-04T07:32:34Z" finished-at="2019-01-04T07:32:34Z">
+        <test-method status="PASS" signature="bankManagerLoginTest()[pri:0, instance:com.rgk.testcases.BankManagerLoginTest@ba2f4ec]" name="bankManagerLoginTest" duration-ms="1051" started-at="2019-01-04T13:45:39Z" finished-at="2019-01-04T13:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bankManagerLoginTest -->
       </class> <!-- com.rgk.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test name="Add Customer Test" duration-ms="16608" started-at="2019-01-04T07:32:35Z" finished-at="2019-01-04T07:32:52Z">
+    <test name="Add Customer Test" duration-ms="15407" started-at="2019-01-04T13:45:41Z" finished-at="2019-01-04T13:45:56Z">
       <class name="com.rgk.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="5633" started-at="2019-01-04T07:32:35Z" data-provider="dp" finished-at="2019-01-04T07:32:41Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3873" started-at="2019-01-04T13:45:41Z" data-provider="dp" finished-at="2019-01-04T13:45:44Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3472" started-at="2019-01-04T07:32:41Z" data-provider="dp" finished-at="2019-01-04T07:32:44Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3291" started-at="2019-01-04T13:45:45Z" data-provider="dp" finished-at="2019-01-04T13:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3425" started-at="2019-01-04T07:32:44Z" data-provider="dp" finished-at="2019-01-04T07:32:48Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3277" started-at="2019-01-04T13:45:49Z" data-provider="dp" finished-at="2019-01-04T13:45:52Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3427" started-at="2019-01-04T07:32:48Z" data-provider="dp" finished-at="2019-01-04T07:32:51Z">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.AddCustomerTest@131ef10]" name="addCustomerTest" duration-ms="3303" started-at="2019-01-04T13:45:52Z" data-provider="dp" finished-at="2019-01-04T13:45:56Z">
           <params>
             <param index="0">
               <value>
@@ -91,16 +91,16 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.rgk.testcases.AddCustomerTest -->
     </test> <!-- Add Customer Test -->
-    <test name="Open Account Test" duration-ms="4596" started-at="2019-01-04T07:32:52Z" finished-at="2019-01-04T07:32:56Z">
+    <test name="Open Account Test" duration-ms="4489" started-at="2019-01-04T13:45:56Z" finished-at="2019-01-04T13:46:00Z">
       <class name="com.rgk.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="setUp" is-config="true" duration-ms="56192" started-at="2019-01-04T07:31:37Z" finished-at="2019-01-04T07:32:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="setUp" is-config="true" duration-ms="10334" started-at="2019-01-04T13:45:29Z" finished-at="2019-01-04T13:45:39Z">
           <reporter-output>
             <line>
-              <![CDATA[Firefox launched !!]]>
+              <![CDATA[Chrome launched !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="openAccountTest" duration-ms="4408" started-at="2019-01-04T07:32:52Z" data-provider="dp" finished-at="2019-01-04T07:32:56Z">
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="openAccountTest" duration-ms="4134" started-at="2019-01-04T13:45:56Z" data-provider="dp" finished-at="2019-01-04T13:46:00Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="tearDown" is-config="true" duration-ms="3323" started-at="2019-01-04T07:32:56Z" finished-at="2019-01-04T07:33:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rgk.testcases.OpenAccountTest@7c9d8e2]" name="tearDown" is-config="true" duration-ms="795" started-at="2019-01-04T13:46:00Z" finished-at="2019-01-04T13:46:01Z">
           <reporter-output>
             <line>
               <![CDATA[Test suite execution completed]]>

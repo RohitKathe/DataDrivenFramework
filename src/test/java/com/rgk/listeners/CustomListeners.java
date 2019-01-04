@@ -66,7 +66,6 @@ public class CustomListeners extends Testbase implements ITestListener, ISuiteLi
 		try {
 			TestUtil.captureScreenshot();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

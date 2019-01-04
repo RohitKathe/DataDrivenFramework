@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.957">
+           time="13.744">
   <properties />
   
   
-            <testcase name="addCustomerTest" time="3.425" classname="com.rgk.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="3.427" classname="com.rgk.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="5.633" classname="com.rgk.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="3.472" classname="com.rgk.testcases.AddCustomerTest" />
+            <testcase name="addCustomerTest" time="3.291" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="3.873" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="3.303" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="3.277" classname="com.rgk.testcases.AddCustomerTest" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.767">
+           time="1.051">
   <properties />
   
   
-            <testcase name="bankManagerLoginTest" time="0.767" classname="com.rgk.testcases.BankManagerLoginTest" />
+            <testcase name="bankManagerLoginTest" time="1.051" classname="com.rgk.testcases.BankManagerLoginTest" />
       
 </testsuite>

@@ -14,22 +14,17 @@ import org.testng.annotations.DataProvider;
 import com.rgk.base.Testbase;
 
 public class TestUtil extends Testbase {
-	private static final String name = null;
-	public static String screenshotName;
-	public static String screenshotPath; //// target//surefire-reports//html--->
+		public static String screenshotPath; //// target//surefire-reports//html--->
 											//// folder
+	public static String screenshotName;
 
 	public static void captureScreenshot() throws IOException {
-		Date d = new Date();
-		screenshotName = d.toString().replaceFirst(" : ", "_").replace(" ", "_").replace(":", "_") + ".jpg";
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		// FileHandler.copy(scrFile, new File(System.getProperty("user.dir")
-		// + "\\target\\surefire-reports\\" + screenshotName ));
+		Date d = new Date();
+		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+
 		FileUtils.copyFile(scrFile,
 				new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenshotName));
-		// org.openqa.selenium.io.FileHandler.copy(scrFile, new File(
-		// System.getProperty("user.dir") + "\\target\\surefire-reports\\Data
-		// Driven Basics\\" + screenshotName));
 	}
 
 	@DataProvider(name = "dp")

@@ -42,7 +42,7 @@ public class Testbase {
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExcelReader excel = new ExcelReader(
-			System.getProperty("user.dir") + "//src//test//resources//excel//testdata.xlsx");
+			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
@@ -54,7 +54,7 @@ public class Testbase {
 		if (driver == null) {
 			try {
 				fis = new FileInputStream(
-						System.getProperty("user.dir") + "//src//test//resources//properties//Config.properties");
+						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -69,7 +69,7 @@ public class Testbase {
 
 			try {
 				fis = new FileInputStream(
-						System.getProperty("user.dir") + "//src//test//resources//properties//OR.properties");
+						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -86,26 +86,26 @@ public class Testbase {
 
 				browser = System.getenv("browser");
 			} else {
-				browser = System.getProperty("browser");
+				browser = config.getProperty("browser");
 			}
 			config.setProperty("browser", browser);
 			
 			if (config.getProperty("browser").equalsIgnoreCase("firefox")) {
 				driver = new FirefoxDriver();
 				System.setProperty("webdriver.gecko.driver",
-						System.getProperty("user.dir") + "//src//test//resources//executables//geckodriver.exe");
+						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
 				driver = new FirefoxDriver();
 				log.debug("Firefox launched!!");
 				Reporter.log("Firefox launched !!");
 			} else if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "//src//test//resources//executables//chromedriver.exe");
+						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
 				driver = new ChromeDriver();
 				log.debug("Chrome launched!!");
 				Reporter.log("Chrome launched !!");
 			} else if (config.getProperty("browser").equalsIgnoreCase("ie")) {
 				System.setProperty("webdriver.ie.driver",
-						System.getProperty("user.dir") + "//src//test//resources//executables//IEDriverServer32.exe");
+						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer32.exe");
 				driver = new InternetExplorerDriver();
 				log.debug("Internet explorer launched!!");
 				Reporter.log("Internet Explorer launched !!");
