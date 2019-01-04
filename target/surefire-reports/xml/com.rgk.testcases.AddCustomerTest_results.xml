@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.957">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="3.425" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="3.427" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="5.633" classname="com.rgk.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="3.472" classname="com.rgk.testcases.AddCustomerTest" />
+      
+</testsuite>
